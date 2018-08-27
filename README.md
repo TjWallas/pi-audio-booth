@@ -8,6 +8,9 @@ At the moment, we support n=3 users. We assume that each user can use his/her ow
 ### Hardware requirements
 * Raspberry PI 3 following [this GPIO numbering scheme](./rpi-gpio.png)
 * 3 audio dongles connected to the PI via USB.
+* 3 headphones plugged into the audio dongles.
+* 12 buttons.
+* Follow the variables `PERSON_X_GPIO_PINS` in `buttons.py` to wire each person's buttons to the corresponding GPIO pins on the Pi.
 
 ### Software requirements
 * Python 2.7.
