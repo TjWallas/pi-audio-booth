@@ -65,7 +65,7 @@ def handle_persons(person_1_inputs, person_2_inputs, person_3_inputs):
             pid = launch_process([
                     "./play_track.sh",
                     "{}".format(
-                            AUDIO_FILENAMES[person_high_pin_idxs[person_idx]]
+                            AUDIO_FILENAMES[v]
                         ),
                     person_idx + 1
                 ])
